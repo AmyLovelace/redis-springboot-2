@@ -10,5 +10,6 @@ import java.io.Serializable;
 @RequiredArgsConstructor
 public class Response implements Serializable {
 
+    //determina el tipo de dato que se guardará en redis
     public final String message;
 }
