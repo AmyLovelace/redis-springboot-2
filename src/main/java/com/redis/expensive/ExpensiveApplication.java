@@ -23,6 +23,7 @@ public class ExpensiveApplication {
 			var input = 42;
 			time(es,sw,input);
 			time(es,sw,input);
+			//retorna dos eventos con stopwatch y el input
 		};
 	}
 	private static Response time(ExpensiveService es, StopWatch sw,double input){
