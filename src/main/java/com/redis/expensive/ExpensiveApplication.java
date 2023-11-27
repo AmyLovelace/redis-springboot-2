@@ -32,6 +32,7 @@ public class ExpensiveApplication {
 		System.out.println("tengo una respuesta "+response.toString() +" despues "+ sw.getTotalTimeMillis());
 		return response;
 
+		//devuelve los milisegundos que se demora en dar cada respuesta
 
 	}
 
